@@ -60,7 +60,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("services");
+  res.send("Genius car mechanic server");
 });
 
 app.listen(port, () => {
